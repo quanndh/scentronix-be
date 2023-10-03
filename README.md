@@ -7,14 +7,16 @@ $ yarn
 ## Running the app
 
 ```bash
-# development
-$ yarn start
 
 # watch mode
 $ yarn start:dev
 
-# production mode
-$ yarn start:prod
+# build
+$ yarn build
+
+# start production
+$ yarn start
+
 
 # DOCKER
 $ docker-compose up
