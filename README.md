@@ -17,6 +17,9 @@ $ yarn build
 # start production
 $ yarn start
 
+# testing
+$ yarn test
+
 
 # DOCKER
 $ docker-compose up
