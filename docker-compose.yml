@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  api:
+    container_name: scentronix_be
+    build:
+      context: .
+      target: development
+    image: scentronix_be
+    ports:
+      - 3000:3000
+    environment:
+      PORT: 3000
